@@ -1,0 +1,30 @@
+{
+  "name": "docker-browser-sync",
+  "version": "1.0.0",
+  "description": "This package installs testing dependencies so that it can be run via docker.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "bower": "./node_modules/bower/bin/bower --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewjackowski/transifex-sync-zendesk.git"
+  },
+  "author": "Matthew Jackowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewjackowski/transifex-sync-zendesk/issues"
+  },
+  "homepage": "https://github.com/matthewjackowski/transifex-sync-zendesk#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.12.8",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
+    "should": "^8.3.2",
+    "sinon": "^1.17.4"
+  }
+}
